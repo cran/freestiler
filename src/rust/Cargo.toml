@@ -1,0 +1,27 @@
+[package]
+name = "freestiler"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+name = "freestiler"
+
+[features]
+default = []
+
+[dependencies]
+extendr-api = "0.8"
+freestiler-core = { path = "freestiler-core" }
+
+# Needed directly for sfg parsing (geo-types geometry constructors)
+geo-types = "0.7"
+
+# Needed for PMTiles metadata reading
+pmtiles2 = "0.3"
+flate2 = "1"
+serde_json = "1"
+
+[profile.release]
+lto = true
+codegen-units = 1
