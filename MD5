@@ -1,7 +1,7 @@
-ada0f66bacf2dafc0f25ac6bb2ce2f35 *DESCRIPTION
+ded2a70cafdab099c6987f6cb5395841 *DESCRIPTION
 1f684a0f5391830980c2100ccdfc9d11 *LICENSE
 1df1f8f3c8522e477e7c6fa101dc50d2 *NAMESPACE
-0aa59c327f7054295307a43e607d1623 *NEWS.md
+aa76c930f4436847957b20d051e87f10 *NEWS.md
 d677d3e841be770f47ef2c78c0fa8fd9 *R/extendr-wrappers.R
 106dedf3ce2985edab2b7033ebec7412 *R/freestile.R
 8e05a315f9250f64c0fcaab37e9056df *R/freestiler-package.R
@@ -25,13 +25,13 @@ dbc581e04de0e4e5f2532e4e9b501f0a *man/rust_freestile_file.Rd
 f381e9336a4a376e42b7213166982df6 *man/serve_tiles.Rd
 27de279ba067c8f72db7173939adf626 *man/stop_server.Rd
 95121a12bbc38ea76104afcd8225f5f4 *man/view_tiles.Rd
-87b8fa831850642e7c2b006bc121a6c8 *src/Makevars.in
+35158e2a2028ffb5a4ee634c70fccf6d *src/Makevars.in
 3eee888881a5837d66ebe86a331363a6 *src/Makevars.win.in
 fd6f1e46387676d1861e72c04725ca76 *src/entrypoint.c
-d3469470f2c565f52950bf0c068d79e1 *src/rust/Cargo.lock
-3d541aad4e8ea818ed350556f2afedf0 *src/rust/Cargo.toml
-ff30b01b37e1ce5629e8078a208feaa0 *src/rust/freestiler-core/Cargo.lock
-638fc24e08b5a16aa9767fef4470361b *src/rust/freestiler-core/Cargo.toml
+ef4eabe4e72a0964b2cc9829601f98d8 *src/rust/Cargo.lock
+5f02717dec86984bfec16b63923af5ec *src/rust/Cargo.toml
+ed42cedf1917efd5ab58beface1aa450 *src/rust/freestiler-core/Cargo.lock
+f4599febf67ab6151ab45a462e1a03cb *src/rust/freestiler-core/Cargo.toml
 2e8293b0a2f8ec9b52226f86e33e4b71 *src/rust/freestiler-core/examples/stream_query.rs
 d1413541a5d329067ea213573924505c *src/rust/freestiler-core/src/clip.rs
 862629e34a9b15d813ddb33540307a42 *src/rust/freestiler-core/src/cluster.rs
@@ -48,7 +48,7 @@ ef4f23360c73c258dd8d46568fcc0cb9 *src/rust/freestiler-core/src/simplify.rs
 12e0417fb91025f2895196958cc4b927 *src/rust/freestiler-core/src/tiler.rs
 cb7b089ce7ac9a80ba494a45c12514b9 *src/rust/src/lib.rs
 d4c7febd30951f7fbd584476dbb2dd70 *src/rust/vendor-config.toml
-dd96fb592ce86dc297a52157ea23ae08 *src/rust/vendor.tar.xz
+17c353ddbe44128b78f684dcadd0aef3 *src/rust/vendor.tar.xz
 51e5939f134fa06b505d93a8f1efb91f *tests/testthat.R
 0fd01daa72944cf3cb726251d6db8d29 *tests/testthat/test-clustering.R
 58bbffd129294224fb054859db7b9ada *tests/testthat/test-coalesce.R
@@ -58,5 +58,5 @@ b852fdeaae6b596394a6ecae5ba97429 *tests/testthat/test-mlt.R
 7bf2a278b16ea2da9b57e1625ac62ca3 *tests/testthat/test-multilayer.R
 d8795f50e95a5286b86f37ac498b896e *tests/testthat/test-mvt.R
 a1423be339ff2aa9bc0164edf4bbc7ef *tests/testthat/test-query.R
-1912edaee3adec7aa8b5106220507792 *tools/config.R
+17b45a91a183e418205a52fa114e9a22 *tools/config.R
 064e5e4e065fe2601c288550d112309d *tools/msrv.R
