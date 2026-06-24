@@ -1,7 +1,7 @@
 Package: freestiler
 Title: Create Vector Tiles from Spatial Data
-Version: 0.1.7
-Date: 2026-05-11
+Version: 0.2.0
+Date: 2026-06-24
 Authors@R: c(
     person("Kyle", "Walker", , "kyle@walker-data.com", role = c("aut", "cre"))
   )
@@ -17,14 +17,14 @@ Encoding: UTF-8
 RoxygenNote: 7.3.3
 Imports: sf
 Suggests: arrow, DBI, duckdb, httpuv, jsonlite, mapgl, testthat (>=
-        3.0.0), withr
+        3.0.0), viridisLite, withr
 Config/testthat/edition: 3
 Config/rextendr/version: 0.4.2.9000
 SystemRequirements: Cargo (Rust's package manager), rustc >= 1.77.2
 Depends: R (>= 4.2)
 NeedsCompilation: yes
-Packaged: 2026-05-11 19:23:25 UTC; kylewalker
+Packaged: 2026-06-24 12:19:52 UTC; kylewalker
 Author: Kyle Walker [aut, cre]
 Maintainer: Kyle Walker <kyle@walker-data.com>
 Repository: CRAN
-Date/Publication: 2026-05-12 10:30:02 UTC
+Date/Publication: 2026-06-24 14:50:02 UTC
