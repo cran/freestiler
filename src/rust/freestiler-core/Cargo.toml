@@ -4,11 +4,16 @@ version = "0.1.0"
 edition = "2021"
 rust-version = "1.77.2"
 description = "Core Rust engine for building PMTiles vector tilesets"
-license = "MIT"
+license = "MIT AND ISC"
 publish = false
 
 [features]
 default = []
+# Declare disabled features for rustc check-cfg without optional dependencies.
+geoparquet = []
+duckdb = []
+fastpfor = []
+fsst = []
 
 [dependencies]
 geo = "0.29"
